@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <>
-<button class="btn btn-primary">Button</button>
-    </>
+<Home /> 
+ </>
   )
 }
 

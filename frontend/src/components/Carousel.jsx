@@ -26,10 +26,10 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="swiper"
+        className="swiper mb-6 rounded"
       >
         <SwiperSlide>
-            <img src="https://images.pexels.com/photos/1624497/pexels-photo-1624497.jpeg" alt=""
+            <img src="https://images.pexels.com/photos/5636692/pexels-photo-5636692.jpeg" alt=""
             className="aspect-[16/9] object-cover"/>
         </SwiperSlide>
         <SwiperSlide>
@@ -37,10 +37,12 @@ export default function App() {
             className="aspect-[16/9] object-cover"/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src="https://images.pexels.com/photos/6798128/pexels-photo-6798128.jpeg" alt=""
+            <img src="https://images.pexels.com/photos/3993211/pexels-photo-3993211.jpeg" alt=""
             className="aspect-[16/9] object-cover"/>
         </SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>
+            <img src="https://images.pexels.com/photos/159632/school-children-happy-food-159632.jpeg" alt="" />
+        </SwiperSlide>
       </Swiper>
     </>
   );

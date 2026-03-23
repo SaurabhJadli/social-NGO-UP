@@ -1,7 +1,7 @@
 const Navbar = () => {
     return(
       <header>
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 shadow-sm z-50 fixed">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +34,7 @@ const Navbar = () => {
       <li>
         <details>
           <summary>Our Work</summary>
-          <ul className="p-2 bg-base-100 w-40 z-1">
+          <ul className="p-2 bg-base-100 w-40 z-50">
             <li><a>Education</a></li>
             <li><a>Health</a></li>
           </ul>

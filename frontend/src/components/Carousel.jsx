@@ -26,13 +26,20 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="swiper"
       >
         <SwiperSlide>
-            <img src="https://images.pexels.com/photos/1624497/pexels-photo-1624497.jpeg" alt="" />
+            <img src="https://images.pexels.com/photos/1624497/pexels-photo-1624497.jpeg" alt=""
+            className="aspect-[16/9] object-cover"/>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>
+            <img src="https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg" alt=""
+            className="aspect-[16/9] object-cover"/>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src="https://images.pexels.com/photos/6798128/pexels-photo-6798128.jpeg" alt=""
+            className="aspect-[16/9] object-cover"/>
+        </SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
       </Swiper>
     </>

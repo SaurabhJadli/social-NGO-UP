@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Navbar = () => {
     return(
       <header>
@@ -30,7 +32,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>About Us</a></li>
+      <li><Link to='/about-us'>About Us</Link></li>
       <li>
         <details>
           <summary>Our Work</summary>

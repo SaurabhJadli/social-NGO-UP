@@ -7,7 +7,7 @@ const Home = () => {
   return (
 <>
 <Navbar/>
-<br /><br />
+
 <main>
   <Carousel/>
   <p className="p-4 mx-7 text-xl">Established in 2023, Mata Radhika Devi Samaj Kalyan Sansthan is an Indian development organization, impacting the lives of over 20 lakh children and their families every year. We have more than 400 projects on education, healthcare, livelihood, and women empowerment in over 2,000 remote villages and urban slums across 27 states of India.</p>
@@ -18,10 +18,14 @@ const Home = () => {
 <a href="">read more..</a>
 </div>
 
+  <div className="divider"></div>
+
 <div>
   <h2>Our Progress</h2>
 </div>
-<hr />
+
+  <div className="divider"></div>
+
 <div className="text-center">
   <h2 className="my-6 text-2xl ">Join Our Mission</h2>
   <div>

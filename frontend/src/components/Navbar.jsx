@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const Navbar = () => {
     return(
       <header>
-        <div className="navbar bg-base-100 shadow-sm z-50 fixed rounded">
+        <div className="navbar bg-base-100 shadow-sm z-50 rounded">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

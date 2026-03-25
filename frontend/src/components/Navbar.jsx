@@ -28,7 +28,10 @@ const Navbar = () => {
       {/* Menu options display only on desktop */}
 
     </div>
-    <a className="btn btn-ghost text-xl">NGO Logo</a>
+    <Link to='/'
+          className="btn btn-ghost text-xl">
+    NGO Logo
+    </Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -42,7 +45,7 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li><a>Contact Us</a></li>
+      <li><Link to='/contact-us'>Contact Us</Link></li>
     </ul>
   </div>
 

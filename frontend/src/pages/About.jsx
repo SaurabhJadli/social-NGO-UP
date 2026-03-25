@@ -18,7 +18,7 @@ const About = () => {
     <div className='divider'></div>
 
     <section className='px-10 md:px-30'>
-            <h1 className='mt-6 text-center text-4xl'>Our Mission</h1>
+            <h2 className='mt-6 text-center text-4xl'>Our Mission</h2>
     <div className='flex justify-center my-4'>
 <img src="https://images.pexels.com/photos/6647037/pexels-photo-6647037.jpeg" alt="" className='rounded max-w-full max-h-120' />
     </div>
@@ -29,7 +29,7 @@ const About = () => {
     <div className='divider'></div>
 
     <section className='px-10 md:px-30'>
-            <h1 className='mt-6 text-center text-4xl'>Founders</h1>
+            <h2 className='mt-6 text-center text-4xl'>Founders</h2>
 
 <div className='flex justify-center p-4 gap-5'>
     <div className="avatar block">

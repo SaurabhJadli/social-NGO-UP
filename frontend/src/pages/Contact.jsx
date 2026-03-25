@@ -16,7 +16,7 @@ const Contact = () => {
 <section>
     <h2 className='m-6 text-4xl'>Visit Us</h2>
 
-<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center'>
+<div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center md:px-26'>
 
 {/* Card 1 Address */}
 <div className="card bg-base-100 w-80 shadow-sm hover:shadow-lg hover:bg-amber-100 transition">

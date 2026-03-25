@@ -1,6 +1,7 @@
 import Carousel from "../components/Carousel"
 import Footer from "../components/Footer"
 import Navbar from "../components/Navbar"
+import WorkTraker from "../components/WorkTraker"
 
 
 const Home = () => {
@@ -21,13 +22,14 @@ const Home = () => {
   <div className="divider"></div>
 
 <div>
-  <h2>Our Progress</h2>
+  <h2 className="my-6 text-2xl text-center">Our Progress</h2>
+  <WorkTraker/>
 </div>
 
   <div className="divider"></div>
 
 <div className="text-center">
-  <h2 className="my-6 text-2xl ">Join Our Mission</h2>
+  <h2 className="my-6 text-2xl">Join Our Mission</h2>
   <div>
  <a className="btn mr-2 bg-lime-400">
       <svg 

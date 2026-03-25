@@ -78,6 +78,30 @@ District, Siddharthnagar, (UP)</p>
     </div>
     
 </section>
+
+{/* WRITE US A MESSAGE SECTION */}
+<section>
+        <h2 className='m-6 text-4xl'>Write us a message</h2>
+<div className='justify-items-center'>
+    <form className="w-sm md:w-xl fieldset bg-blue-50 border-base-300 rounded-box border p-4">
+
+  <label className="label text-2xl">Name</label>
+  <input type="text" className="input w-full" placeholder="Aman Singh" />
+
+  <label className="label mt-4 text-2xl">Phone</label>
+  <input type="text" className="input w-full" placeholder="98575XXXXX" />
+
+  <label className="label mt-4 text-2xl">Email</label>
+  <input type="text" className="input w-full" placeholder="emma@gmail.com" />
+
+  <label className="label mt-4 text-2xl">Message</label>
+  <textarea type="" className="textarea input w-full" placeholder="Write your message here ...." />
+
+  <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-lg mt-4">Submit</button>
+</form>
+</div>
+        
+</section>
     <Footer/>
 </>  )
 }

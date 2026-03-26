@@ -1,15 +1,31 @@
-import React from 'react'
+import Swal from 'sweetalert2'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 const Contact = () => {
+
+     const handleSubmit = (e) => {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries());
+    console.log(data);
+    e.target.reset();
+
+    Swal.fire({
+  icon: "success",
+  title: "Message sended sucessfuly",
+  showConfirmButton: false,
+  timer: 1500
+});
+  };
+
   return (
 <>
  <Navbar/>
     <section className='px-10 md:px-30'>
     <h1 className='mt-6 text-center text-4xl'>Contact Us</h1>
     <div className='flex justify-center my-4'>
-<img src="https://images.pexels.com/photos/31127861/pexels-photo-31127861.jpeg" alt="" className='rounded max-w-full max-h-120' />
+<img src="https://images.pexels.com/photos/10638724/pexels-photo-10638724.jpeg" alt="" className='rounded max-w-full max-h-120' />
     </div>
     </section>
 
@@ -83,19 +99,19 @@ District, Siddharthnagar, (UP)</p>
 <section>
         <h2 className='m-6 text-4xl'>Write us a message</h2>
 <div className='justify-items-center'>
-    <form className="w-sm md:w-xl fieldset bg-blue-50 border-base-300 rounded-box border p-4">
+    <form className="w-sm md:w-xl fieldset bg-blue-50 border-base-300 rounded-box border p-4" onSubmit={handleSubmit}>
 
   <label className="label text-2xl">Name</label>
-  <input type="text" className="input w-full" placeholder="Aman Singh" />
+  <input type="text" name="name" className="input w-full" placeholder="Aman Singh" />
 
   <label className="label mt-4 text-2xl">Phone</label>
-  <input type="text" className="input w-full" placeholder="98575XXXXX" />
+  <input type="text" name='phone' className="input w-full" placeholder="98575XXXXX" />
 
   <label className="label mt-4 text-2xl">Email</label>
-  <input type="text" className="input w-full" placeholder="emma@gmail.com" />
+  <input type="text" name='email' className="input w-full" placeholder="emma@gmail.com" />
 
   <label className="label mt-4 text-2xl">Message</label>
-  <textarea type="" className="textarea input w-full" placeholder="Write your message here ...." />
+  <textarea name='message' className="textarea input w-full" placeholder="Write your message here ...." />
 
   <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-lg mt-4">Submit</button>
 </form>

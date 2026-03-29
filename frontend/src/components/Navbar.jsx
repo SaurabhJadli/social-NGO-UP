@@ -40,8 +40,9 @@ const Navbar = () => {
         <details>
           <summary>Our Work</summary>
           <ul className="p-2 bg-base-100 w-40 z-50">
-            <li><a>Education</a></li>
-            <li><a>Health</a></li>
+            <li><Link to="/our-work/education">Education</Link></li>
+            <li><Link to="/our-work/health">Health</Link></li>
+            <li><Link to="/our-work/environment">Environment</Link></li>
           </ul>
         </details>
       </li>

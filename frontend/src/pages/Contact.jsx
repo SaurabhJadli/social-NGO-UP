@@ -21,7 +21,6 @@ const Contact = () => {
 
   return (
 <>
- <Navbar/>
     <section className='px-10 md:px-30'>
     <h1 className='mt-6 text-center text-4xl'>Contact Us</h1>
     <div className='flex justify-center my-4'>
@@ -102,23 +101,22 @@ District, Siddharthnagar, (UP)</p>
     <form className="w-sm md:w-xl fieldset bg-blue-50 border-base-300 rounded-box border p-4" onSubmit={handleSubmit}>
 
   <label className="label text-2xl">Name</label>
-  <input type="text" name="name" className="input w-full" placeholder="Aman Singh" />
+  <input type="text" name="name" className="input w-full" placeholder="Aman Singh" maxLength="50" required />
 
   <label className="label mt-4 text-2xl">Phone</label>
-  <input type="text" name='phone' className="input w-full" placeholder="98575XXXXX" />
+  <input type="number" name='phone' className="input w-full" placeholder="98575XXXXX" maxLength="12" required />
 
   <label className="label mt-4 text-2xl">Email</label>
-  <input type="text" name='email' className="input w-full" placeholder="emma@gmail.com" />
+  <input type="email" name='email' className="input w-full" placeholder="emma@gmail.com" maxLength="50" required />
 
   <label className="label mt-4 text-2xl">Message</label>
-  <textarea name='message' className="textarea input w-full" placeholder="Write your message here ...." />
+  <textarea name='message' className="textarea input w-full" placeholder="Write your message here ...." maxLength="250" required />
 
   <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-lg mt-4">Submit</button>
 </form>
 </div>
         
 </section>
-    <Footer/>
 </>  )
 }
 

@@ -16,6 +16,7 @@ const About = () => {
 
     <div className='divider'></div>
 
+{/* OUR MISSION */}
     <section className='px-10 md:px-30'>
             <h2 className='mt-6 text-center text-4xl'>Our Mission</h2>
     <div className='flex justify-center my-4'>
@@ -27,6 +28,7 @@ const About = () => {
 
     <div className='divider'></div>
 
+{/* FOUNDERS */}
     <section className='px-10 md:px-30'>
             <h2 className='mt-6 text-center text-4xl'>Founders</h2>
 

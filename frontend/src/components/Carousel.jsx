@@ -26,7 +26,7 @@ export default function Carousel() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="swiper mb-6 rounded"
+        className="swiper-h mb-6 rounded"
       >
         <SwiperSlide>
             <img src="https://images.pexels.com/photos/5636692/pexels-photo-5636692.jpeg" alt=""

@@ -6,8 +6,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import './styles.css';
-
 // import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 import StoryCard from './StoryCard';
@@ -24,15 +22,15 @@ export default function Stories() {
         spaceBetween={30}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="w-full h-full"
       >
         
-        <SwiperSlide><StoryCard/></SwiperSlide>
-        <SwiperSlide><StoryCard/></SwiperSlide>
-        <SwiperSlide><StoryCard/></SwiperSlide>
-        <SwiperSlide><StoryCard/></SwiperSlide>
-        <SwiperSlide><StoryCard/></SwiperSlide>
-        <SwiperSlide><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-70'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-70'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-70'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-70'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-70'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-70'><StoryCard/></SwiperSlide>
       </Swiper>
 
     </>

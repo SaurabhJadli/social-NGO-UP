@@ -26,11 +26,13 @@ const Education = () => {
     </section>
 
 {/* IMAPACT AND PROGRESS */}
-    <section className='px-10 md:px-30 py-6'>
+    <section>
+      <div className='px-10 md:px-30 py-6'>
       <h2 className='mt-6 text-4xl font-bold text-center'>OUR IMPACT</h2>
       <div className='flex justify-center my-4'>
 <img src="https://images.pexels.com/photos/10638724/pexels-photo-10638724.jpeg" alt="" className='rounded max-w-full max-h-80' />
     </div>
+      </div>
 
       <div className="shadow grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center md:px-26">
   <div className="stat">
@@ -79,8 +81,8 @@ const Education = () => {
 
     <div className='divider'></div>
 
-    <section className='px-10 md:px-30 bg-base-300 py-6'>
-      <h2 className='mt-6 text-4xl font-bold'>Stories</h2>
+    <section className='px-10 py-6 md:px-30 bg-base-300'>
+      <h2 className='text-4xl font-bold'>Stories</h2>
       <br />
       <Stories/>
     </section>

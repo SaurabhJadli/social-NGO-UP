@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Footer = () => {
   return (
     <>
@@ -25,9 +23,10 @@ const Footer = () => {
   </nav>
 </footer>
 
+{/* 2nd Footer Starts Here */}
 <footer className="hidden md:block footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
   
-  <nav className="md:place-self-center md:justify-center">
+  <nav className="md:place-self-center md:justify-center md:justify-items-center">
         <h6 className="footer-title">Follow us on</h6>
     <div className="grid grid-flow-col gap-4">
       <a>

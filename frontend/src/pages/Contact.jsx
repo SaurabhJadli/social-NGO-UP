@@ -22,7 +22,7 @@ const Contact = () => {
   return (
 <>
     <section className='px-10 md:px-30'>
-    <h1 className='mt-6 text-center text-4xl'>Contact Us</h1>
+    <h1 className='mt-6 text-center text-5xl'>Contact Us</h1>
     <div className='flex justify-center my-4'>
 <img src="https://images.pexels.com/photos/10638724/pexels-photo-10638724.jpeg" alt="" className='rounded max-w-full max-h-120' />
     </div>

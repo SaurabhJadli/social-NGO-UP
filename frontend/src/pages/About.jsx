@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 const About = () => {
   return (
     <>
-    <section className='px-10 md:px-30'>
+    <section className='px-10 md:px-50'>
     <h1 className='mt-6 text-center text-4xl'>About Us</h1>
     <div className='flex justify-center my-4'>
 <img src="https://images.pexels.com/photos/6647037/pexels-photo-6647037.jpeg" alt="" className='rounded max-w-full max-h-120' />
@@ -17,7 +17,7 @@ const About = () => {
     <div className='divider'></div>
 
 {/* OUR MISSION */}
-    <section className='px-10 md:px-30'>
+    <section className='px-10 md:px-50'>
             <h2 className='mt-6 text-center text-4xl'>Our Mission</h2>
     <div className='flex justify-center my-4'>
 <img src="https://images.pexels.com/photos/6647037/pexels-photo-6647037.jpeg" alt="" className='rounded max-w-full max-h-120' />
@@ -29,7 +29,7 @@ const About = () => {
     <div className='divider'></div>
 
 {/* FOUNDERS */}
-    <section className='px-10 md:px-30'>
+    <section className='px-10 md:px-50'>
             <h2 className='mt-6 text-center text-4xl'>Founders</h2>
 
 <div className='flex justify-center p-4 gap-5'>

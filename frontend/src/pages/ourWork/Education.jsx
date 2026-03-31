@@ -11,13 +11,13 @@ const Education = () => {
     </div>
     </section>
 
-    <section className='px-10 md:px-30 py-6'>
+    <section className='px-10 md:px-50 py-6'>
             <h2 className='mt-6 text-4xl font-bold'>WHY EDUCATION IS IMPORTANT?</h2>
 
       <p className="my-4 text-xl">Established in 2023, Mata Radhika Devi Samaj Kalyan Sansthan is an Indian development organization, impacting the lives of over 20 lakh children and their families every year. We have more than 400 projects on education, healthcare, livelihood, and women empowerment in over 2,000 remote villages and urban slums across 27 states of India.</p>
     </section>
 
-    <section className='px-10 md:px-30 bg-base-300 py-6'>
+    <section className='px-10 md:px-50 bg-base-300 py-6'>
             <h2 className='mt-6 text-4xl font-bold'>WHAT WE ARE DOING?</h2>
 
       <p className="my-4 text-xl">
@@ -27,7 +27,7 @@ const Education = () => {
 
 {/* IMAPACT AND PROGRESS */}
     <section>
-      <div className='px-10 md:px-30 py-6'>
+      <div className='px-10 md:px-50 py-6'>
       <h2 className='mt-6 text-4xl font-bold text-center'>OUR IMPACT</h2>
       <div className='flex justify-center my-4'>
 <img src="https://images.pexels.com/photos/10638724/pexels-photo-10638724.jpeg" alt="" className='rounded max-w-full max-h-80' />
@@ -81,7 +81,7 @@ const Education = () => {
 
     <div className='divider'></div>
 
-    <section className='px-10 py-6 md:px-30 bg-base-300'>
+    <section className='px-10 py-6 md:px-50 bg-base-300'>
       <h2 className='text-4xl font-bold'>Stories</h2>
       <br />
       <Stories/>

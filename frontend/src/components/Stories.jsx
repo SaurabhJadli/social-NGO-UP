@@ -25,13 +25,13 @@ export default function Stories() {
         className="w-full h-full"
       >
         
-        <SwiperSlide className='flex min-w-60 md:min-w-40'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
       </Swiper>
 
     </>

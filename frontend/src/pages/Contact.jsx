@@ -28,7 +28,7 @@ const Contact = () => {
     </div>
     </section>
 
-<section>
+<section className='px-10 md:px-30 py-6 bg-base-300'>
     <h2 className='m-6 text-4xl'>Visit Us</h2>
 
 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-items-center md:px-26'>
@@ -95,10 +95,10 @@ District, Siddharthnagar, (UP)</p>
 </section>
 
 {/* WRITE US A MESSAGE SECTION */}
-<section>
+<section className='px-10 md:px-30'>
         <h2 className='m-6 text-4xl'>Write us a message</h2>
 <div className='justify-items-center'>
-    <form className="w-sm md:w-xl fieldset bg-blue-50 border-base-300 rounded-box border p-4" onSubmit={handleSubmit}>
+    <form className="w-sm md:w-xl fieldset border-base-300 rounded-box border p-4 hover:shadow-lg hover:bg-gray-50 transition" onSubmit={handleSubmit}>
 
   <label className="label text-2xl">Name</label>
   <input type="text" name="name" className="input w-full" placeholder="Aman Singh" maxLength="50" required />
@@ -112,7 +112,16 @@ District, Siddharthnagar, (UP)</p>
   <label className="label mt-4 text-2xl">Message</label>
   <textarea name='message' className="textarea input w-full" placeholder="Write your message here ...." maxLength="250" required />
 
-  <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-lg mt-4">Submit</button>
+  <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-lg mt-4">
+    <svg 
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24" 
+    viewBox="0 0 640 640">
+      <path fill="rgb(232, 232, 239)" 
+      d="M322.5 351.7L523.4 150.9L391 520.3L322.5 351.7zM489.4 117L288.6 317.8L120 249.3L489.4 117zM70.1 280.8L275.9 364.4L359.5 570.2C364.8 583.3 377.6 591.9 391.8 591.9C406.5 591.9 419.6 582.7 424.6 568.8L602.6 72C606.1 62.2 603.6 51.4 596.3 44C589 36.6 578.1 34.2 568.3 37.7L71.4 215.7C57.5 220.7 48.3 233.8 48.3 248.5C48.3 262.7 56.9 275.5 70 280.8z"/>
+    </svg>
+    Submit</button>
 </form>
 </div>
         

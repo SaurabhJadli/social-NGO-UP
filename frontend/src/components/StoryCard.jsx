@@ -3,7 +3,7 @@ import React from 'react'
 const StoryCard = () => {
   return (
     <>
-    <div className="card bg-base-100 w-full min-w-50 shadow-sm rounded">
+    <div className="card bg-base-100 w-full min-w-50 max-w-65 shadow-sm rounded">
   <figure>
     <img
       src="https://images.pexels.com/photos/31219729/pexels-photo-31219729.jpeg"

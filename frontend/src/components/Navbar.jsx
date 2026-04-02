@@ -23,15 +23,15 @@ const Navbar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>About us</a></li>
+        <li><Link to='/about-us'>About Us</Link></li>
         <li>
           <a>Our Work</a>
           <ul className="p-2">
-            <li><a>Education 1</a></li>
-            <li><a>Health</a></li>
+            <li><Link to="/our-work/education">Education</Link></li>
+            <li><Link to="/our-work/health">Health</Link></li>
           </ul>
         </li>
-        <li><a>Contact Us</a></li>
+        <li><Link to='/contact-us'>Contact Us</Link></li>
       </ul>
 
       {/* Menu options display only on desktop */}

@@ -7,7 +7,7 @@ const Education = () => {
      <section className='px-10 md:px-30'>
     <h1 className='mt-6 text-center text-5xl'>Education</h1>
     <div className='flex justify-center my-4'>
-<img src="https://images.pexels.com/photos/10638724/pexels-photo-10638724.jpeg" alt="" className='rounded max-w-full max-h-120' />
+<img src="/edu1.jpeg" alt="children having lecture" className='rounded max-w-full max-h-120' />
     </div>
     </section>
 
@@ -30,7 +30,7 @@ const Education = () => {
       <div className='px-10 md:px-50 py-6'>
       <h2 className='mt-6 text-4xl font-bold text-center'>OUR IMPACT</h2>
       <div className='flex justify-center my-4'>
-<img src="https://images.pexels.com/photos/10638724/pexels-photo-10638724.jpeg" alt="" className='rounded max-w-full max-h-80' />
+<img src="/edu2.jpeg" alt="children in class" className='rounded max-w-full max-h-80' />
     </div>
       </div>
 

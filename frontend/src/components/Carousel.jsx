@@ -29,7 +29,7 @@ export default function Carousel() {
         className="swiper-h mb-6 rounded"
       >
         <SwiperSlide>
-            <img src="https://images.pexels.com/photos/5636692/pexels-photo-5636692.jpeg" alt=""
+            <img src="/home1.jpeg" alt=""
             className="aspect-[16/9] object-cover"/>
         </SwiperSlide>
         <SwiperSlide>
@@ -41,7 +41,7 @@ export default function Carousel() {
             className="aspect-[16/9] object-cover"/>
         </SwiperSlide>
         <SwiperSlide>
-            <img src="https://images.pexels.com/photos/159632/school-children-happy-food-159632.jpeg" alt="" />
+            <img src="/teaching_yoga.jpeg" alt="" />
         </SwiperSlide>
       </Swiper>
     </>

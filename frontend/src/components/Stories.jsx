@@ -11,7 +11,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 import StoryCard from './StoryCard';
 
 export default function Stories() {
-  const [swiperRef, setSwiperRef] = useState(null);  
+  const [swiperRef, setSwiperRef] = useState(null);
 
   return (
     <>
@@ -24,14 +24,14 @@ export default function Stories() {
         modules={[Pagination, Navigation]}
         className="w-full h-full"
       >
-        
-        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
-        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard/></SwiperSlide>
+
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard /></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard /></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard /></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard /></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard /></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard /></SwiperSlide>
+        <SwiperSlide className='flex min-w-60 md:min-w-40 max-w-60'><StoryCard /></SwiperSlide>
       </Swiper>
 
     </>

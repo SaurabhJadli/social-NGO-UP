@@ -48,25 +48,41 @@ const PostJoin = () => {
                     <div
                         ref={idCardRef}
                         className="flex justify-center items-center py-2 my-8">
-                        <div className="border-2 w-[85.6mm] h-[54mm] bg-white shadow-xl rounded-lg">
-                            <div className="flex flex-row justify-center gap-4 bg-gray-200 p-2 shadow-md">
-                                <img src="/NGO_Logo.png" alt="member photo" className="size-12" />
-                                <p className="font-semibold">Mata Radhika Devi Samaj Kalyan Sansthan</p>
-                            </div>
 
-                            <div className="grid grid-cols-[30%_auto] p-2">
-                                <div className="justify-center items-center flex">
-                                    <img src="/NGO_Logo.png" alt="NGO Logo" className="size-15 flex" />
+                        {/* DIV FOR 3D HOVER EFFECT STARTS HERE */}
+                        <div className="hover-3d my-12 mx-2 cursor-pointer">
+                            {/* CARD STARTS HERE */}
+                            <div className="border-2 w-[85.6mm] h-[54mm] bg-white shadow-xl rounded-lg">
+                                <div className="flex flex-row justify-center gap-4 bg-gray-200 p-2 shadow-md">
+                                    <img src="/NGO_Logo.png" alt="member photo" className="size-12" />
+                                    <p className="font-semibold">Mata Radhika Devi Samaj Kalyan Sansthan</p>
                                 </div>
 
-                                <div>
-                                    <p>Name: {data.name}</p>
-                                    <p>DOB: {data.dob}</p>
-                                    <p>Phone: {data.phone}</p>
-                                    <p>Email: {data.email}</p>
+                                <div className="grid grid-cols-[30%_auto] p-2">
+                                    <div className="justify-center items-center flex">
+                                        <img src="/NGO_Logo.png" alt="NGO Logo" className="size-15 flex" />
+                                    </div>
+
+                                    <div>
+                                        <p>Name: {data.name}</p>
+                                        <p>DOB: {data.dob}</p>
+                                        <p>Phone: {data.phone}</p>
+                                        <p>Email: {data.email}</p>
+                                    </div>
                                 </div>
                             </div>
+
+                            {/* 8 empty divs needed for the 3D effect */}
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
                         </div>
+
                     </div>
                 </div>
                 {/* ---------------------------------------------------------------------------------------------------------------- */}

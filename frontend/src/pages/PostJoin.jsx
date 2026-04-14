@@ -11,14 +11,14 @@ const PostJoin = () => {
 
     const idCardPrintFn = useReactToPrint({
         contentRef: idCardRef, // ✅ NEW API
-        documentTitle: "Demo Print121",
+        documentTitle: "NGO_member_idCard",
         onAfterPrint: () => alert("Print success!"),
         onPrintError: (error) => alert("Print failed: " + error.message),
     });
 
     const welLetPrintFn = useReactToPrint({
         contentRef: welLetRef, // ✅ NEW API
-        documentTitle: "Demo Print121",
+        documentTitle: "NGO_member_welcome_letter",
         onAfterPrint: () => alert("Print success!"),
         onPrintError: (error) => alert("Print failed: " + error.message),
     });
@@ -50,7 +50,7 @@ const PostJoin = () => {
                         className="flex justify-center items-center py-2 my-8">
                         <div className="border-2 w-[85.6mm] h-[54mm] bg-white shadow-xl rounded-lg">
                             <div className="flex flex-row justify-center gap-4 bg-gray-200 p-2 shadow-md">
-                                <img src="/NGO_Logo.png" alt="NGO Logo" className="size-12" />
+                                <img src="/NGO_Logo.png" alt="member photo" className="size-12" />
                                 <p className="font-semibold">Mata Radhika Devi Samaj Kalyan Sansthan</p>
                             </div>
 

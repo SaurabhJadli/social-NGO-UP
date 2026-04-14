@@ -8,6 +8,8 @@ import Education from './pages/ourWork/Education.jsx'
 import Health from './pages/ourWork/Health.jsx'
 import Environment from './pages/ourWork/Environment.jsx'
 import Home from './pages/Home.jsx'
+import JoinUs from './pages/JoinUs.jsx'
+import PostJoin from './pages/PostJoin.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -20,7 +22,10 @@ createRoot(document.getElementById('root')).render(
           <Route path='/our-work/education' element={<Education />}></Route>
           <Route path='/our-work/health' element={<Health />}></Route>
           <Route path='/our-work/environment' element={<Environment />}></Route>
+          <Route path='/post-join-us' element={<PostJoin />}></Route>
         </Route>
+
+        <Route path='/join-us' element={<JoinUs />}></Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>,

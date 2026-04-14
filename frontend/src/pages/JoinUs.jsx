@@ -43,7 +43,7 @@ const JoinUs = () => {
                         <input type="email" name='email' className="input w-full" placeholder="emma@gmail.com" maxLength="50" required />
 
                         <label className="label mt-4 text-2xl">Passport size Photo</label>
-                        <input type="file" className="file-input" accept="image/*" />
+                        <input type="file" name="photo" className="file-input" accept="image/*" />
                         <label className="label">Max size 2MB</label>
 
                         <button className="btn btn-info sm:btn-sm md:btn-md lg:btn-lg mt-4">

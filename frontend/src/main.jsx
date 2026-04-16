@@ -10,6 +10,7 @@ import Environment from './pages/ourWork/Environment.jsx'
 import Home from './pages/Home.jsx'
 import JoinUs from './pages/JoinUs.jsx'
 import PostJoin from './pages/PostJoin.jsx'
+import Ticker from './components/Ticker.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='/our-work/health' element={<Health />}></Route>
           <Route path='/our-work/environment' element={<Environment />}></Route>
           <Route path='/post-join-us' element={<PostJoin />}></Route>
+          <Route path='/ticker' element={<Ticker />}></Route>
         </Route>
 
         <Route path='/join-us' element={<JoinUs />}></Route>

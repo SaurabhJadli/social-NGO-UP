@@ -37,14 +37,17 @@ export default function Ticker() {
         setInput("");
     };
 
+    const duration = items.length * 8;
+
     return (
         <div className="p-4 space-y-6">
-
             <style>
                 {`
           .marquee {
-  animation: marquee 20s linear infinite;
-}
+          animation-name: marquee;
+          animation-timing-function: ease-in;
+          animation-iteration-count: infinite;
+          }
 
 /* Keyframes */
 @keyframes marquee {
@@ -52,15 +55,18 @@ export default function Ticker() {
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-200%);
   }
 }
         `}
             </style>
 
+
             {/* 📰 Ticker */}
-            <div className="overflow-hidden bg-black text-white py-2 rounded">
-                <div className="flex marquee whitespace-nowrap">
+            <div className="overflow-hidden bg-[#000000d1] text-white text-xl py-2 rounded">
+                <div className="flex marquee whitespace-nowrap"
+                    style={{ animationDuration: `${duration}s` }}
+                >
                     {[...items, ...items].map((item, i) => (
                         <span key={i} className="mx-8">
                             {item}
